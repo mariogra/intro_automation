@@ -1,0 +1,46 @@
+Yahoo access LInk:
+https://login.yahoo.com/config/login?.src=fpctx&.intl=e1&.lang=es-US&.done=https%3A%2F%2Fespanol.yahoo.com
+
+Correo Electronico text box:
+Elemento input
+
+atributos
+class="phone-no "
+type="text"
+name="username"
+id="login-username"
+tabindex="1" value=""
+autocomplete="username"
+autocapitalize="none"
+autocorrect="off"
+autofocus="true"
+placeholder="Ingresa tu correo electrónico"
+
+Siguiente button
+Tag input
+atributos
+id="login-signin"
+type="submit"
+name="signin"
+class="orko-button-primary orko-button"
+value="Siguiente"
+tabindex="2"
+
+Ingresar
+etiqueta H1
+attibutos
+class="sign-in-title-greeting"
+id="mbr-login-greeting"
+Texto visible = Ingresar
+
+ayuda link
+elemten a
+atributos
+href="https://help.yahoo.com/kb/index?locale=es_US&amp;page=product&amp;y=PROD_ACCT"
+Texto visible = Ayuda
+
+Regrtistarse link
+elemento a
+atributos
+href="/account/create?src=fpctx&amp;intl=e1&amp;lang=es-US&amp;done=https%3A%2F%2Fespanol.yahoo.com&amp;act=link&amp;specId=yidReg"
+id="createacc"texto visible = Registrarse
