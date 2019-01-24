@@ -1,0 +1,126 @@
+{
+  "id": "f0e3efd7-5b7b-462d-8429-6995a731f99d",
+  "version": "2.0",
+  "name": "Yahoo search",
+  "url": "https://espanol.yahoo.com",
+  "tests": [{
+    "id": "3d7da9fb-8591-4e5a-be9d-7ffc12c688c4",
+    "name": "Yahoo selenium",
+    "commands": [{
+      "id": "5a332c4f-e70c-4184-820b-d85616bed1df",
+      "comment": "",
+      "command": "open",
+      "target": "/?p=us",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3f0652a-8468-44ea-826e-35ad31dc0546",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1234x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "266b3691-68fa-4e4a-a190-b329bf66f5e3",
+      "comment": "",
+      "command": "click",
+      "target": "id=uh-search-box",
+      "targets": [
+        ["id=uh-search-box", "id"],
+        ["name=p", "name"],
+        ["css=#uh-search-box", "css:finder"],
+        ["css=#uh-search-box", "css"],
+        ["xpath=//input[@id='uh-search-box']", "xpath:attributes"],
+        ["xpath=//td[@id='yui_3_18_0_3_1548292910696_691']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b146f786-a1da-4cb1-9a0b-c182af6b1e48",
+      "comment": "",
+      "command": "type",
+      "target": "id=uh-search-box",
+      "targets": [
+        ["id=uh-search-box", "id"],
+        ["name=p", "name"],
+        ["css=#uh-search-box", "css:finder"],
+        ["css=#uh-search-box", "css"],
+        ["xpath=//input[@id='uh-search-box']", "xpath:attributes"],
+        ["xpath=//td[@id='yui_3_18_0_3_1548292910696_691']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Selenium"
+    }, {
+      "id": "f6e2c571-f31d-4cba-b146-9db923d2d016",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li/span",
+      "targets": [
+        ["id=yui_3_18_0_3_1548292910696_711", "id"],
+        ["css=#yui_3_18_0_3_1548292910696_711", "css:finder"],
+        ["css=#yui_3_18_0_3_1548292910696_711", "css"],
+        ["xpath=//span[@id='yui_3_18_0_3_1548292910696_711']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_18_0_3_1548292910696_712']/span", "xpath:idRelative"],
+        ["xpath=//li/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5589bda8-1052-4182-a198-7b66815ba426",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Selenium - Web Browser Automation",
+      "targets": [
+        ["id=yui_3_10_0_1_1548292928644_1138", "id"],
+        ["linkText=Selenium - Web Browser Automation", "linkText"],
+        ["css=#yui_3_10_0_1_1548292928644_1138", "css:finder"],
+        ["css=#yui_3_10_0_1_1548292928644_1138", "css"],
+        ["xpath=//a[contains(text(),'Selenium - Web Browser Automation')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_10_0_1_1548292928644_1138']", "xpath:attributes"],
+        ["xpath=//h3[@id='yui_3_10_0_1_1548292928644_1139']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.seleniumhq.org/')]", "xpath:href"],
+        ["xpath=//li/div/div/h3/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7781",
+      "windowTimeout": 2000
+    }, {
+      "id": "78e3a6ed-a4be-436b-862c-45cdeb403be9",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7781}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0837f65-8aa3-4265-866a-1a6ff3468e3d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download",
+      "targets": [
+        ["id=yui_3_10_0_1_1548292928644_1869", "id"],
+        ["linkText=Downloads - Selenium", "linkText"],
+        ["css=#yui_3_10_0_1_1548292928644_1869", "css:finder"],
+        ["css=#yui_3_10_0_1_1548292928644_1869", "css"],
+        ["xpath=//a[contains(text(),'Downloads - Selenium')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_10_0_1_1548292928644_1869']", "xpath:attributes"],
+        ["xpath=//h3[@id='yui_3_10_0_1_1548292928644_1870']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.seleniumhq.org/download/')]", "xpath:href"],
+        ["xpath=//li[8]/div/div/h3/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3730",
+      "windowTimeout": 2000
+    }]
+  }],
+  "suites": [{
+    "id": "72ffbb63-6947-4321-9575-84e6c5ba3e77",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3d7da9fb-8591-4e5a-be9d-7ffc12c688c4"]
+  }],
+  "urls": ["https://espanol.yahoo.com/"],
+  "plugins": []
+}
